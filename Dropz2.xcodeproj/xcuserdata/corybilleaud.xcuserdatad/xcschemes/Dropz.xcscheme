@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0810"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -15,8 +15,8 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "C4D681F71DFF49B5004858C4"
-               BuildableName = "Dropz.app"
-               BlueprintName = "Dropz"
+               BuildableName = "Dropz2.app"
+               BlueprintName = "Dropz2"
                ReferencedContainer = "container:Dropz.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -33,8 +33,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4D681F71DFF49B5004858C4"
-            BuildableName = "Dropz.app"
-            BlueprintName = "Dropz"
+            BuildableName = "Dropz2.app"
+            BlueprintName = "Dropz2"
             ReferencedContainer = "container:Dropz.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
@@ -49,6 +49,7 @@
       useCustomWorkingDirectory = "NO"
       ignoresPersistentStateOnLaunch = "NO"
       debugDocumentVersioning = "YES"
+      enableAddressSanitizer = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
       <BuildableProductRunnable
@@ -56,12 +57,17 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4D681F71DFF49B5004858C4"
-            BuildableName = "Dropz.app"
-            BlueprintName = "Dropz"
+            BuildableName = "Dropz2.app"
+            BlueprintName = "Dropz2"
             ReferencedContainer = "container:Dropz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
+         <AdditionalOption
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </AdditionalOption>
       </AdditionalOptions>
    </LaunchAction>
    <ProfileAction
@@ -75,8 +81,8 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "C4D681F71DFF49B5004858C4"
-            BuildableName = "Dropz.app"
-            BlueprintName = "Dropz"
+            BuildableName = "Dropz2.app"
+            BlueprintName = "Dropz2"
             ReferencedContainer = "container:Dropz.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>

@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C401AB111E03BAB00015DA22 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C46729D61E03B43C002922D9 /* MapKit.framework */; };
+		C401AB161E03BF460015DA22 /* Pods_Dropz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F7D1FC1413BAFE8DF85415B /* Pods_Dropz.framework */; };
+		C401AB191E0468D40015DA22 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C401AB171E0465560015DA22 /* StoreKit.framework */; };
+		C4C44DC71E01C2D700F4A7D8 /* DropzCallout.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4C44DC61E01C2D700F4A7D8 /* DropzCallout.xib */; };
+		C4C44DC91E021D0C00F4A7D8 /* SettingsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C44DC81E021D0C00F4A7D8 /* SettingsVC.swift */; };
+		C4C44DCB1E0344D300F4A7D8 /* DropzDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C44DCA1E0344D300F4A7D8 /* DropzDetailVC.swift */; };
+		C4D450501E007E77000D11BA /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D4504F1E007E77000D11BA /* DataService.swift */; };
+		C4D450521E007EC4000D11BA /* FIRDataObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D450511E007EC4000D11BA /* FIRDataObject.swift */; };
+		C4D681FC1DFF49B5004858C4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D681FB1DFF49B5004858C4 /* AppDelegate.swift */; };
+		C4D682011DFF49B5004858C4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D681FF1DFF49B5004858C4 /* Main.storyboard */; };
+		C4D682031DFF49B6004858C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4D682021DFF49B6004858C4 /* Assets.xcassets */; };
+		C4D682061DFF49B6004858C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4D682041DFF49B6004858C4 /* LaunchScreen.storyboard */; };
+		C4D6820E1DFF7480004858C4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C4D6820D1DFF7480004858C4 /* GoogleService-Info.plist */; };
+		C4D88E8D1DFF8EB500E57355 /* MMButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E8C1DFF8EB500E57355 /* MMButton.swift */; };
+		C4D88E8F1DFF8F0200E57355 /* DropMapviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E8E1DFF8F0200E57355 /* DropMapviewVC.swift */; };
+		C4D88E921DFF8F6000E57355 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E911DFF8F6000E57355 /* Constants.swift */; };
+		C4D88E941DFF950B00E57355 /* Dropz.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E931DFF950B00E57355 /* Dropz.swift */; };
+		C4D88E961DFF9B1400E57355 /* DropzCallout.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E951DFF9B1400E57355 /* DropzCallout.swift */; };
+		C4D88E981DFF9BC700E57355 /* DropzCalloutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E971DFF9BC700E57355 /* DropzCalloutView.swift */; };
+		C4D88E9A1DFF9C1000E57355 /* DropsAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E991DFF9C1000E57355 /* DropsAnnotation.swift */; };
+		C4D88E9C1DFF9EA500E57355 /* Extentions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E9B1DFF9EA500E57355 /* Extentions.swift */; };
+		C4D88E9E1DFF9F1300E57355 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88E9D1DFF9F1300E57355 /* Reachability.swift */; };
+		C4D88EA51DFF9F8A00E57355 /* Dropz2Products.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88EA01DFF9F8A00E57355 /* Dropz2Products.swift */; };
+		C4D88EA71DFF9F8A00E57355 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88EA21DFF9F8A00E57355 /* ProductCell.swift */; };
+		C4D88EA81DFF9F8A00E57355 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88EA31DFF9F8A00E57355 /* DetailViewController.swift */; };
+		C4D88EA91DFF9F8A00E57355 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4D88EA41DFF9F8A00E57355 /* MasterViewController.swift */; };
+		C4F8248D1DFFBD880095F8C5 /* MMView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8248C1DFFBD880095F8C5 /* MMView.swift */; };
+		C4F8248F1DFFBDB00095F8C5 /* MMLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F8248E1DFFBDB00095F8C5 /* MMLabel.swift */; };
+		C4F824911DFFD6040095F8C5 /* CreateDropVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F824901DFFD6040095F8C5 /* CreateDropVC.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4F2CE31F208EC003974B3782 /* Pods-Dropz.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dropz.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Dropz/Pods-Dropz.debug.xcconfig"; sourceTree = "<group>"; };
+		5F7D1FC1413BAFE8DF85415B /* Pods_Dropz.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Dropz.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C401AB171E0465560015DA22 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		C45AF9701E03A7CD0044722E /* Dropz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Dropz.entitlements; sourceTree = "<group>"; };
+		C46729D61E03B43C002922D9 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C4C44DC61E01C2D700F4A7D8 /* DropzCallout.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DropzCallout.xib; sourceTree = "<group>"; };
+		C4C44DC81E021D0C00F4A7D8 /* SettingsVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsVC.swift; sourceTree = "<group>"; };
+		C4C44DCA1E0344D300F4A7D8 /* DropzDetailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropzDetailVC.swift; sourceTree = "<group>"; };
+		C4D4504F1E007E77000D11BA /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		C4D450511E007EC4000D11BA /* FIRDataObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FIRDataObject.swift; sourceTree = "<group>"; };
+		C4D681F81DFF49B5004858C4 /* Dropz2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dropz2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4D681FB1DFF49B5004858C4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4D682001DFF49B5004858C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C4D682021DFF49B6004858C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C4D682051DFF49B6004858C4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C4D682071DFF49B6004858C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4D6820D1DFF7480004858C4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C4D88E8C1DFF8EB500E57355 /* MMButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMButton.swift; sourceTree = "<group>"; };
+		C4D88E8E1DFF8F0200E57355 /* DropMapviewVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropMapviewVC.swift; sourceTree = "<group>"; };
+		C4D88E911DFF8F6000E57355 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C4D88E931DFF950B00E57355 /* Dropz.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dropz.swift; sourceTree = "<group>"; };
+		C4D88E951DFF9B1400E57355 /* DropzCallout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropzCallout.swift; sourceTree = "<group>"; };
+		C4D88E971DFF9BC700E57355 /* DropzCalloutView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropzCalloutView.swift; sourceTree = "<group>"; };
+		C4D88E991DFF9C1000E57355 /* DropsAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DropsAnnotation.swift; sourceTree = "<group>"; };
+		C4D88E9B1DFF9EA500E57355 /* Extentions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extentions.swift; sourceTree = "<group>"; };
+		C4D88E9D1DFF9F1300E57355 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		C4D88EA01DFF9F8A00E57355 /* Dropz2Products.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dropz2Products.swift; sourceTree = "<group>"; };
+		C4D88EA11DFF9F8A00E57355 /* IAPHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IAPHelper.swift; sourceTree = "<group>"; };
+		C4D88EA21DFF9F8A00E57355 /* ProductCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
+		C4D88EA31DFF9F8A00E57355 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		C4D88EA41DFF9F8A00E57355 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		C4F8248C1DFFBD880095F8C5 /* MMView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMView.swift; sourceTree = "<group>"; };
+		C4F8248E1DFFBDB00095F8C5 /* MMLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MMLabel.swift; sourceTree = "<group>"; };
+		C4F824901DFFD6040095F8C5 /* CreateDropVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateDropVC.swift; sourceTree = "<group>"; };
+		E03776DA552788308D6F2A29 /* Pods-Dropz.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Dropz.release.xcconfig"; path = "Pods/Target Support Files/Pods-Dropz/Pods-Dropz.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4D681F51DFF49B5004858C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C401AB191E0468D40015DA22 /* StoreKit.framework in Frameworks */,
+				C401AB111E03BAB00015DA22 /* MapKit.framework in Frameworks */,
+				C401AB161E03BF460015DA22 /* Pods_Dropz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8AAFB093C1E5673C2647A211 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F2CE31F208EC003974B3782 /* Pods-Dropz.debug.xcconfig */,
+				E03776DA552788308D6F2A29 /* Pods-Dropz.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C4D681EF1DFF49B5004858C4 = {
+			isa = PBXGroup;
+			children = (
+				C4D681FA1DFF49B5004858C4 /* Dropz */,
+				C4D681F91DFF49B5004858C4 /* Products */,
+				8AAFB093C1E5673C2647A211 /* Pods */,
+				FF1D89F8DEFEB88E4EB8C779 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C4D681F91DFF49B5004858C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4D681F81DFF49B5004858C4 /* Dropz2.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4D681FA1DFF49B5004858C4 /* Dropz */ = {
+			isa = PBXGroup;
+			children = (
+				C45AF9701E03A7CD0044722E /* Dropz.entitlements */,
+				C4D88E9F1DFF9F7A00E57355 /* IAP */,
+				C4D88E901DFF8F5100E57355 /* Resources */,
+				C4D88E8A1DFF8E7A00E57355 /* Model */,
+				C4D88E891DFF8E7000E57355 /* View */,
+				C4D88E8B1DFF8E8400E57355 /* Controller */,
+				C4D681FB1DFF49B5004858C4 /* AppDelegate.swift */,
+				C4D681FF1DFF49B5004858C4 /* Main.storyboard */,
+				C4D682021DFF49B6004858C4 /* Assets.xcassets */,
+				C4D682041DFF49B6004858C4 /* LaunchScreen.storyboard */,
+				C4D682071DFF49B6004858C4 /* Info.plist */,
+				C4D6820D1DFF7480004858C4 /* GoogleService-Info.plist */,
+			);
+			path = Dropz;
+			sourceTree = "<group>";
+		};
+		C4D88E891DFF8E7000E57355 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C4D88E8C1DFF8EB500E57355 /* MMButton.swift */,
+				C4F8248C1DFFBD880095F8C5 /* MMView.swift */,
+				C4F8248E1DFFBDB00095F8C5 /* MMLabel.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C4D88E8A1DFF8E7A00E57355 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C4D88E931DFF950B00E57355 /* Dropz.swift */,
+				C4D88E951DFF9B1400E57355 /* DropzCallout.swift */,
+				C4C44DC61E01C2D700F4A7D8 /* DropzCallout.xib */,
+				C4D88E971DFF9BC700E57355 /* DropzCalloutView.swift */,
+				C4D88E991DFF9C1000E57355 /* DropsAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C4D88E8B1DFF8E8400E57355 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C4D88E8E1DFF8F0200E57355 /* DropMapviewVC.swift */,
+				C4F824901DFFD6040095F8C5 /* CreateDropVC.swift */,
+				C4C44DC81E021D0C00F4A7D8 /* SettingsVC.swift */,
+				C4C44DCA1E0344D300F4A7D8 /* DropzDetailVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C4D88E901DFF8F5100E57355 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C4D450511E007EC4000D11BA /* FIRDataObject.swift */,
+				C4D88E911DFF8F6000E57355 /* Constants.swift */,
+				C4D88E9B1DFF9EA500E57355 /* Extentions.swift */,
+				C4D88E9D1DFF9F1300E57355 /* Reachability.swift */,
+				C4D4504F1E007E77000D11BA /* DataService.swift */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C4D88E9F1DFF9F7A00E57355 /* IAP */ = {
+			isa = PBXGroup;
+			children = (
+				C4D88EA01DFF9F8A00E57355 /* Dropz2Products.swift */,
+				C4D88EA11DFF9F8A00E57355 /* IAPHelper.swift */,
+				C4D88EA21DFF9F8A00E57355 /* ProductCell.swift */,
+				C4D88EA31DFF9F8A00E57355 /* DetailViewController.swift */,
+				C4D88EA41DFF9F8A00E57355 /* MasterViewController.swift */,
+			);
+			name = IAP;
+			sourceTree = "<group>";
+		};
+		FF1D89F8DEFEB88E4EB8C779 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C401AB171E0465560015DA22 /* StoreKit.framework */,
+				C46729D61E03B43C002922D9 /* MapKit.framework */,
+				5F7D1FC1413BAFE8DF85415B /* Pods_Dropz.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4D681F71DFF49B5004858C4 /* Dropz2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4D6820A1DFF49B6004858C4 /* Build configuration list for PBXNativeTarget "Dropz2" */;
+			buildPhases = (
+				3A1ECD83FCBC67628D9062E1 /* [CP] Check Pods Manifest.lock */,
+				C4D681F41DFF49B5004858C4 /* Sources */,
+				C4D681F51DFF49B5004858C4 /* Frameworks */,
+				C4D681F61DFF49B5004858C4 /* Resources */,
+				5D74E605B5EA1E3869E4D455 /* [CP] Embed Pods Frameworks */,
+				244E8057CED32F889A690697 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dropz2;
+			productName = Dropz;
+			productReference = C4D681F81DFF49B5004858C4 /* Dropz2.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4D681F01DFF49B5004858C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Cory;
+				TargetAttributes = {
+					C4D681F71DFF49B5004858C4 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 595GQGY9Q9;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Keychain = {
+								enabled = 0;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = C4D681F31DFF49B5004858C4 /* Build configuration list for PBXProject "Dropz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4D681EF1DFF49B5004858C4;
+			productRefGroup = C4D681F91DFF49B5004858C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4D681F71DFF49B5004858C4 /* Dropz2 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4D681F61DFF49B5004858C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D682061DFF49B6004858C4 /* LaunchScreen.storyboard in Resources */,
+				C4D682031DFF49B6004858C4 /* Assets.xcassets in Resources */,
+				C4C44DC71E01C2D700F4A7D8 /* DropzCallout.xib in Resources */,
+				C4D682011DFF49B5004858C4 /* Main.storyboard in Resources */,
+				C4D6820E1DFF7480004858C4 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		244E8057CED32F889A690697 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dropz/Pods-Dropz-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A1ECD83FCBC67628D9062E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5D74E605B5EA1E3869E4D455 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Dropz/Pods-Dropz-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4D681F41DFF49B5004858C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4D88EA91DFF9F8A00E57355 /* MasterViewController.swift in Sources */,
+				C4D88E921DFF8F6000E57355 /* Constants.swift in Sources */,
+				C4F8248F1DFFBDB00095F8C5 /* MMLabel.swift in Sources */,
+				C4D88E9C1DFF9EA500E57355 /* Extentions.swift in Sources */,
+				C4D88E8D1DFF8EB500E57355 /* MMButton.swift in Sources */,
+				C4F8248D1DFFBD880095F8C5 /* MMView.swift in Sources */,
+				C4C44DCB1E0344D300F4A7D8 /* DropzDetailVC.swift in Sources */,
+				C4D88EA71DFF9F8A00E57355 /* ProductCell.swift in Sources */,
+				C4F824911DFFD6040095F8C5 /* CreateDropVC.swift in Sources */,
+				C4D450521E007EC4000D11BA /* FIRDataObject.swift in Sources */,
+				C4D88E8F1DFF8F0200E57355 /* DropMapviewVC.swift in Sources */,
+				C4D88E961DFF9B1400E57355 /* DropzCallout.swift in Sources */,
+				C4D681FC1DFF49B5004858C4 /* AppDelegate.swift in Sources */,
+				C4D88E9E1DFF9F1300E57355 /* Reachability.swift in Sources */,
+				C4D88E941DFF950B00E57355 /* Dropz.swift in Sources */,
+				C4D88E9A1DFF9C1000E57355 /* DropsAnnotation.swift in Sources */,
+				C4D88EA81DFF9F8A00E57355 /* DetailViewController.swift in Sources */,
+				C4D88E981DFF9BC700E57355 /* DropzCalloutView.swift in Sources */,
+				C4D88EA51DFF9F8A00E57355 /* Dropz2Products.swift in Sources */,
+				C4D450501E007E77000D11BA /* DataService.swift in Sources */,
+				C4C44DC91E021D0C00F4A7D8 /* SettingsVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C4D681FF1DFF49B5004858C4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D682001DFF49B5004858C4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C4D682041DFF49B6004858C4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4D682051DFF49B6004858C4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4D682081DFF49B6004858C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C4D682091DFF49B6004858C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C4D6820B1DFF49B6004858C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F2CE31F208EC003974B3782 /* Pods-Dropz.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 595GQGY9Q9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GeoFire",
+				);
+				INFOPLIST_FILE = Dropz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Dropz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		C4D6820C1DFF49B6004858C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E03776DA552788308D6F2A29 /* Pods-Dropz.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 595GQGY9Q9;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos/GeoFire",
+				);
+				INFOPLIST_FILE = Dropz/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.cory.Dropz2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4D681F31DFF49B5004858C4 /* Build configuration list for PBXProject "Dropz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D682081DFF49B6004858C4 /* Debug */,
+				C4D682091DFF49B6004858C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4D6820A1DFF49B6004858C4 /* Build configuration list for PBXNativeTarget "Dropz2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4D6820B1DFF49B6004858C4 /* Debug */,
+				C4D6820C1DFF49B6004858C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4D681F01DFF49B5004858C4 /* Project object */;
+}
